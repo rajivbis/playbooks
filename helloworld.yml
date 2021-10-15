@@ -1,7 +1,8 @@
 ---
 - name: Hello World!
   hosts: all
-  
+  vars:
+    ansible_python_interpreter: /usr/bin/python
   tasks:
  
   - name: Hello World!
